@@ -1,0 +1,28 @@
+.background    { background-image: url(cosmos.jpg);
+				background-size: cover;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(143, 107, 178); }
+.wall          { background: rgb(36, 36, 121);   }
+.floate      { background: rgb(234, 200, 90);  }
+
+.actor  { position: absolute;  }
+.coin   { background: rgb(241, 229, 89); }
+.player {background-image: url(Hero.png);
+       	background-size: 30px 50px;}
+.enemy {background: rgb(73,4,24);}
+
+.game {
+  overflow: hidden;
+  max-width: full;
+  max-height: 1200px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
